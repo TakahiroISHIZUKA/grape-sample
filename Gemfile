@@ -43,7 +43,7 @@ gem 'grape-swagger'
 gem 'grape-swagger-rails'
 gem 'grape-swagger-entity'
 
-gem 'pg'
+gem 'pg', group: :production
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
