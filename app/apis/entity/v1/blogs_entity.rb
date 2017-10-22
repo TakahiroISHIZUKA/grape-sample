@@ -13,7 +13,7 @@ module Entity
       end
       
       # 他のEntityの定義を使うことができる。
-      expose :user, using: 'Entity::V1::UsersEntity'
+      expose :user, using: 'Entity::V1::UsersEntity', as: :auther
     end
   end
 end
