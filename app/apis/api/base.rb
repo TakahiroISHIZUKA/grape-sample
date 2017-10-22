@@ -5,7 +5,7 @@ module API
     add_swagger_documentation(
       info: {
         title: "APIドキュメント",
-        description: "バーコードアプリのAPIリファレンスです。"
+        description: "APIリファレンスをswaggerで作ってみました。"
       }
     )
   end
