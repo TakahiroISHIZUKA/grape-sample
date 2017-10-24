@@ -1,0 +1,13 @@
+%p#notice= notice
+%p
+  %strong User:
+  = @blog.user.name
+%p
+  %strong Title:
+  = @blog.title
+%p
+  %strong Body:
+  = @blog.body
+= link_to 'Edit', edit_blog_path(@blog)
+|
+= link_to 'Back', blogs_path

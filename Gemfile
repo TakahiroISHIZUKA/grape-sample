@@ -43,6 +43,13 @@ gem 'grape-swagger'
 gem 'grape-swagger-rails'
 gem 'grape-swagger-entity'
 
+gem 'devise'
+gem 'cancancan'
+gem 'rolify'
+
+gem 'haml-rails'
+gem 'erb2haml'
+
 gem 'pg', group: :production
 
 group :development do
